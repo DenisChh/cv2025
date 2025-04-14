@@ -6,7 +6,10 @@ const Minirt = () => {
             <div className={global.title}> Minirt - Rendu 3D en C </div>
             <ul>
                 <li>
-                    Raytracing avec LibX, déplacement et intéractions dans la scène
+                    Raytracing avec LibX
+                </li>
+                <li>
+                    Déplacement et intéractions dans la scène
                 </li>
             </ul>
         </>

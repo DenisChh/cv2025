@@ -6,7 +6,10 @@ const Kubernetes = () => {
             <div className={global.title}> Cluster Kubernetes </div>
             <ul>
                 <li>
-                    Wordpress, Grafana, Telegraf, Load balancing avec Metallb
+                    Wordpress, Grafana, Telegraf
+                </li>
+                <li>
+                    Load balancing avec Metallb
                 </li>
             </ul>
         </>

@@ -7,10 +7,13 @@ const Pong = () => {
             <div className={global.title}> Pong en ligne </div>
             <ul>
                 <li>
-                    Auth OAuth2 / JWT / 2FA, chat, matchmaking
+                    React + Canvas, NestJS API, WebSockets
                 </li>
                 <li>
-                    React + Canvas, NestJS API, WebSockets
+                    Authentification OAuth2 / JWT / 2FA
+                </li>
+                <li>
+                    Jeu, chat, lobby, matchmaking, user profile
                 </li>
             </ul>
         </div>

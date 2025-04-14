@@ -9,6 +9,7 @@ body {
 h2 {
   font-size: 25px;
   color: #33a6ff;
+  margin-top: 5px;
   margin-bottom: 5px;
   font-weight: bold;
 }
