@@ -1,9 +1,20 @@
 import styles from './studies.module.css'
+import globalStyles from '../page.module.css'
+import chess from '../../public/pawn.png'
+import Image from 'next/image'
 
 const Studies = () => {
     return (
         <div className={styles.main}>
-            <h3> Formation </h3>
+            <div className={globalStyles.textWithIcon}>
+                <Image
+                    src={chess}
+                    alt='chessIcon'
+                    width={30}
+                    height={30}
+                />
+                <div> Formation </div>
+            </div>
             <div className={styles.row}>
                 <div className={styles.bold}>
                     Ecole 42

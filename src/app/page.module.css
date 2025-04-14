@@ -13,6 +13,9 @@
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 75%;
   padding: 10px;
 }
@@ -20,4 +23,17 @@
 .title {
   color: #eb69aa;
   font-weight: bold;
+}
+
+.textWithIcon {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  border-bottom: 1px solid rgb(255 255 255 / 30%);
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #33a6ff;
+  gap: 5px;
 }

@@ -1,11 +1,21 @@
 import styles from './xp.module.css'
-import global from '../page.module.css'
+import globalStyles from '../page.module.css'
+import Image from 'next/image'
+import chess from '../../public/queen.png'
 
 const Xp = () => {
     return (
         <div className={styles.main}>
-            <h3> Expérience professionnelle </h3>
-            <div className={global.title}> Développeur fullstack - 100%Kosher (Alfortville) - Juin 2023 - Janv. 2024</div>
+            <div className={globalStyles.textWithIcon}>
+                <Image
+                    src={chess}
+                    alt='chessIcon'
+                    width={30}
+                    height={30}
+                />
+                <div> Expérience professionnelle </div>
+            </div>
+            <div className={globalStyles.title}> Développeur fullstack - 100%Kosher (Alfortville) - Juin 2023 - Janv. 2024</div>
             <ul>
                 <li>
                     Conception et développement complet d'une app alimentaire (React Native, NestJS, PostgreSQL)

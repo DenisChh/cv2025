@@ -7,7 +7,7 @@ const Name = () => {
         <div className={styles.main}>
             <Image
                 src={profilePic}
-                width={180}
+                width={170}
                 height={200}
                 alt='me'
             />
